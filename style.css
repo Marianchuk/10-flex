@@ -6,37 +6,40 @@
 
 body {
     background-color: black;
-
-}
+    /* justify-content: center;
+    align-items: center;
+    margin: auto; */
+ }
 .container {
     display: flex;
-    min-height: 80vh;
-    min-width: 80vh;
+    /* min-height: 100vh; */
+    max-width: 150vh;
     color: grey;
     flex-wrap: wrap;
     gap: 25px;
     justify-content: center;
     align-items: center;
-    /* margin: 25px; */
-    
+    margin: auto;
+    /* border:brown solid 3px; */
+   
 }
-@media screen and (min-width: 650px) {
-    
-    
-}
+
 
 .card {
     display: flex;
-    margin-bottom: 5px;
+    margin: 5px;
     cursor: pointer;
-    width: 320px;
-    height: 480px;
+    width: 280px;
+    height: 420px;
     cursor: pointer;
-    /* top: 50%; */
-    /* left: 50%; */
-    transform: translate(10%, 10%);
+    /* width: 25%; */
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, 0%);
+    /* flex: 1; */
+    /* flex-wrap: wrap; */
     
-  }
+}
   
   .card:hover .front {
     transform: perspective(600px) rotateY(-180deg);
@@ -117,7 +120,5 @@ a {
     border-radius: 7px;
 }
 
-@media screen and (min-width: 1200){
-    
-}
+
 
